@@ -6,6 +6,10 @@ import sem5_syllabus from "/src/assets/students/sem5_syllabus.pdf"
 import sem6_syllabus from "/src/assets/students/sem6_syllabus.pdf"
 import IA_EEB from "/src/assets/students/TE/IA/EEB_23-24.pdf"
 import IA_IP from "/src/assets/students/TE/IA/IP_23-24.pdf"
+import sem3_kt from "/src/assets/students/TE/SEM Results/sem3_kt.pdf"
+import sem3_regular from "/src/assets/students/TE/SEM Results/sem3_regular.pdf"
+import sem4_regular from "/src/assets/students/TE/SEM Results/sem4_regular.pdf"
+
 
 const TE = () => {
   return (
@@ -38,18 +42,18 @@ const TE = () => {
 
       <div className='flex flex-col gap-4'>
         <div className='flex font-semibold'>Result</div>
-        <a href={rtt} target='_blank' className='font-[400] text-blue-500 hover:underline'>
+        <a href={sem3_regular} target='_blank' className='font-[400] text-blue-500 hover:underline'>
           Sem 3 Result 22-23
         </a>
-        <a href={rtt} target='_blank' className='font-[400] text-blue-500 hover:underline'>
-          Sem 4 Result 22-23
-        </a>
-        <a href={rtt} target='_blank' className='font-[400] text-blue-500 hover:underline'>
+        <a href={sem3_kt} target='_blank' className='font-[400] text-blue-500 hover:underline'>
           Sem 3 KT Result 22-23
         </a>
-        <a href={rtt} target='_blank' className='font-[400] text-blue-500 hover:underline'>
-          Sem 4 KT Result 22-23
+        <a href={sem4_regular} target='_blank' className='font-[400] text-blue-500 hover:underline'>
+          Sem 4 Result 22-23
         </a>
+        {/* <a href={rtt} target='_blank' className='font-[400] text-blue-500 hover:underline'>
+          Sem 4 KT Result 22-23
+        </a> */}
       </div>
 
       <div className='flex flex-col gap-4'>
