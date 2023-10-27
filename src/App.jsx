@@ -18,6 +18,7 @@ import Notices from "./pages/Notices";
 import Login from "./pages/Login"
 import Signup from "./pages/Signup";
 import ErrorPage from "./pages/ErrorPage";
+import Attendance from "./pages/Attendance";
 
 
 export default function App() {
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="/students/be" element={<BE />} />
           <Route path="/alumni" element={<Alumni />} />
           <Route path="/notices" element={<Notices />} />
+          <Route path="/attendance" element={<Attendance />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="*" element={<ErrorPage />} />

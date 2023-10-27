@@ -26,7 +26,7 @@ export default function Login() {
             window.alert("Invalid credentials!");
         }else{
             window.alert("Logged in successfully");
-            navigate("/");
+            navigate("/attendance");
         }
     }
 
