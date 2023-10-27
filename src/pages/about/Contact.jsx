@@ -24,12 +24,13 @@ const ContactUs = () => {
 
                     <div className="mb-4">
                         <h3 className="font-semibold">Mobile Number:</h3>
-                        <p>+91 1234567890</p>
+                        <p>+91 7447852874</p>
+                        <p>+91 7304066855</p>
                     </div>
 
                     <div className="mb-4">
                         <h3 className="font-semibold">Email:</h3>
-                        <p>contactus@example.com</p>
+                        <p>itsaofficial95@gmail.com</p>
                     </div>
 
                     <div className="mb-4">

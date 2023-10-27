@@ -23,7 +23,7 @@ const Header = () => {
         <div className="header_text text-center">
           <a href="/">
             <h1 className="font-bold text-sm md:text-[1.55rem] text-[#17375D] tracking-wide">Department Of Information Technology (IT)</h1>
-            <h2 className="hidden md:block md:text-[1.05rem] font-semibold mt-2">Shivajirao S. Jondhale College Of Engineering, Dombivli (SSJCOE)</h2>
+            <h2 className="md:block text-xs md:text-[1.05rem] font-semibold mt-2">Shivajirao S. Jondhale College Of Engineering, Dombivli (SSJCOE)</h2>
             <h2 className="hidden md:block md:text-[0.9rem] font-medium tracking-wide text-gray-600">Developed By: Aditya Sharma, Vishnu Yelde and Prachiti Yadav</h2>
           </a>
         </div>
